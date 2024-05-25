@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta content="text/html; charset=UTF-8" name="Content-Type" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width" />
+
+  <meta property="og:site_name" content="Other Projects" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta property="og:title" content="Other Projects" />
+  <meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="/assets/192.png" />
+<meta name="author" content="Mark Angelo Buslig" />
+
+  <link rel="icon" href="/assets/32.png" sizes="32x32">
+  <link rel="icon" href="/assets/192.png"sizes="192x192"> 
+
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />  
+  <title>Other Projects - Mark Angelo Buslig</title>  
+  <link rel="stylesheet" href="/css/styles.css">
+      <script>
+      const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (isDarkMode()) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+</head>
+
+<body>
+    
+<a class="muted small" href="/">← Mark Angelo Buslig</a>
+<h1>Other Projects</h1>
+
+<h3>Quote API</h3>
+<p>The API serves as a vital interface predominantly utilized by Dell Technologies' product distributors to initiate requests for specific product quotations, primarily aimed at accessing pricing details and product SKU information. Developed with cutting-edge technologies, including .NET Core 8, it embodies a robust framework designed to facilitate seamless communication and data exchange between distributors and the Dell ecosystem. Moreover, meticulous attention has been devoted to incorporating comprehensive unit testing methodologies, ensuring the reliability, stability, and scalability of the API across various operational scenarios.</p>
+<h3>NJMEP Max</h3>
+<p>Max functions as an executive-level tool designed to streamline the acquisition of critical manufacturing data, enabling in-depth analysis and precise identification of improvement opportunities across various facets of a manufacturer's operations. Leveraging advanced algorithms and data processing techniques, Max provides actionable insights that empower decision-makers to optimize processes, enhance productivity, and drive overall operational excellence. Additionally, Max facilitates seamless integration with existing systems and workflows, ensuring smooth implementation and sustained value delivery for manufacturers seeking to stay ahead in today's competitive market landscape.</p>
+<h3>BDO Account Officer Workbench (Banco De Oro)</h3>
+<p>The endeavor involved the meticulous development of an expansive account information repository tailored specifically for a prominent banking institution in the Philippines. This repository was meticulously crafted to ensure the utmost security and integrity of sensitive account data, employing advanced encryption techniques and robust access controls. Its primary function is to proficiently manage and safeguard the diverse array of account information belonging to numerous banking clients, fostering operational efficiency and bolstering data security measures in adherence to industry standards and regulatory requirements.</p>
+<h3>SM Stores Centralized Sales Audit (SM Supermalls)</h3>
+<p>The implementation of an innovative application facilitated the consolidation of sales data across all branches of SM, thereby establishing a centralized platform to streamline accounting and auditing processes. This sophisticated solution effectively harmonized the diverse streams of transactional information, providing a robust framework for meticulous financial management and regulatory compliance within the organization.</p>
+<h3>DECO Plus (Western Digital)</h3>
+<p>This application assumes responsibility for conducting comprehensive statistical analyses and assessing the operational condition of machinery by leveraging output data and Slider measurements. Through advanced algorithms and analytical methodologies, it scrutinizes the performance metrics and parameters derived from these datasets, facilitating informed decision-making regarding maintenance, optimization, and performance enhancement strategies. Furthermore, it serves as a pivotal tool in predictive maintenance frameworks, allowing for proactive identification of potential issues and preemptive interventions to mitigate downtime and enhance overall operational efficiency.</p>
+
+
+      <script>
+      document.getElementById("toggleDarkMode").addEventListener("click", function() {
+        if (isDarkMode()) {
+          localStorage.theme = 'light'
+          document.documentElement.classList.remove('dark')
+        } else {
+          localStorage.theme = 'dark'
+          document.documentElement.classList.add('dark')
+        }
+      });
+    </script>
+</body>
+<footer>
+  <footer>
+  <p class="muted small">
+    © 2024 | <a class="muted" href="https://www.linkedin.com/in/angelobuslig/" target="_blank">Mark Angelo Buslig</a>
+  </p>
+</footer>
+
+</footer>
+</html>

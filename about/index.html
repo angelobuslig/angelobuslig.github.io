@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta content="text/html; charset=UTF-8" name="Content-Type" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width" />
+
+  <meta property="og:site_name" content="About Me" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta property="og:title" content="About Me" />
+  <meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="/assets/192.png" />
+<meta name="author" content="Mark Angelo Buslig" />
+
+  <link rel="icon" href="/assets/32.png" sizes="32x32">
+  <link rel="icon" href="/assets/192.png"sizes="192x192"> 
+
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />  
+  <title>About Me - Mark Angelo Buslig</title>  
+  <link rel="stylesheet" href="/css/styles.css">
+      <script>
+      const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (isDarkMode()) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
+</head>
+
+<body>
+    
+<a class="muted small" href="/">← Mark Angelo Buslig</a>
+<h1>About Me</h1>
+<p>Hello! I'm Mark Angelo A. Buslig, a passionate software developer and architect based in Tuguegarao City, Cagayan, Philippines. With a Master’s in Business Administration and a Bachelor's in Computer Engineering, I bring a unique blend of technical expertise and strategic insight to every project.</p>
+<p>Over the past decade, I've honed my skills in various programming languages, front-end technologies, and database management systems. My experience spans across developing robust web applications, creating intuitive user interfaces, and architecting scalable software solutions.</p>
+<p>I thrive in dynamic environments where I can leverage my problem-solving abilities and innovative thinking to deliver high-quality software. Whether it's enhancing existing systems or building new applications from the ground up, my goal is always to exceed client expectations and contribute to their success.</p>
+<p>In my current role at Gold Group Enterprises, I've led multiple high-impact projects, utilizing cutting-edge technologies like .NET Core, Angular, and Python. I take pride in my ability to stay updated with industry trends and continuously improve my skills through ongoing learning and development.</p>
+<p>When I'm not coding, you can find me exploring new tech trends or enjoying the beautiful outdoors of Cagayan. Let's connect and create something amazing together!</p>
+<h2>Contact</h2>
+<ul>
+<li><a href="/assets/MarkBusligCV.pdf">CV</a></li>
+<li><a href="mailto:angelobuslig@gmail.com">Email me</a></li>
+<li><a href="https://github.com/angelobuslig">Github</a></li>
+<li><a href="https://www.linkedin.com/in/angelobuslig/">LinkedIn</a></li>
+</ul>
+
+
+      <script>
+      document.getElementById("toggleDarkMode").addEventListener("click", function() {
+        if (isDarkMode()) {
+          localStorage.theme = 'light'
+          document.documentElement.classList.remove('dark')
+        } else {
+          localStorage.theme = 'dark'
+          document.documentElement.classList.add('dark')
+        }
+      });
+    </script>
+</body>
+<footer>
+  <footer>
+  <p class="muted small">
+    © 2024 | <a class="muted" href="https://www.linkedin.com/in/angelobuslig/" target="_blank">Mark Angelo Buslig</a>
+  </p>
+</footer>
+
+</footer>
+</html>
